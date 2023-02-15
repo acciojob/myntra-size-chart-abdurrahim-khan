@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid black;
+	width: 70px;
+}
+tr>td:first-child {
+	width: 100px;
+}
+thead {
+	background-color: darkred;
+	text-align: left;
+}
+.one {
+	background-color: tomato;
+}
+.two {
+	background-color: lightgray;
+}
+.three  {
+	background-color: lightblue;
+}
+tbody
+{
+	text-align: right;
+}
+tbody>tr>td:first-child{
+	text-align: left;
+}
+thead, tbody>tr:first-child {
+	color: white;
+}
